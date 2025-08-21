@@ -1,13 +1,36 @@
-RAG Pipeline 
+# RAG Pipeline
 
-Notes: 
-    - Before anything make sure to run these 2 commands to ensure the virtual enviroment for python pip:
-        python3 -m venv venv
-        source venv/bin/activate
-    - If you made changes in the depencies, you NEED to update the requierements.txt by running:
-        pip freeze > requirements.txt
-    - To install the dependencies you can do it by runnig: 
-        pip install -r requirements.txt
+## Prerequisites
+
+Before running this project, make sure you have Python 3 installed on your system.
+
+## Setup
+
+### 1. Create Virtual Environment
+
+First, create and activate a Python virtual environment:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+### 2. Install Dependencies
+
+Install the required dependencies using pip:
+
+```bash
+pip install -r requirements.txt
+```
+## Development Notes
+
+### Updating Dependencies
+
+If you make changes to the project dependencies, you **MUST** update the `requirements.txt` file by running:
+
+```bash
+pip freeze > requirements.txt
+```
+========================================
 
 1. Project Overview
 This project implements a Retrieval-Augmented Generation (RAG) pipeline designed to answer questions based on a collection of documents. In this case, I arbitrarily decided to use insurance policy documents. Think of it as a smart digital librarian: it reads and understands a library of documents (ingestion.py), and then helps a user find precise answers within them (app.py).
@@ -108,4 +131,10 @@ Areas for Experimentation: To improve the accuracy scores (Precision and Recall)
 
     Add a Reranker (accuracy_benchmark.py): A powerful technique is to retrieve more documents initially (e.g., k=10) and then use a "reranker" model to pick the best 3-5 before sending them to the LLM.
 
+========================================
 
+4. Project Resources
+For more context on this project's development, goals, and future direction, please see the following resources:
+
+* **[Presentation on Next Steps & Future Improvements]([https://www.your-presentation-link-here.com](https://sebastiang00.github.io/rag-presentation/))** - First Attempt accuracy results (old version)
+* **[Project Brief & Technical Document (Google Doc)]([https://docs.google.com/document/d/your-doc-id-here/edit](https://docs.google.com/document/d/1JYfVTEHsrkdxZ9z_a2A9AuOFbfPWZ4turDQvX0wsJD0/edit?usp=sharing))** - A detailed document covering the project's initial scope, challenges, and key learnings. As well as outlining the strategic path to improve the RAG pipeline's accuracy to over 90%.
