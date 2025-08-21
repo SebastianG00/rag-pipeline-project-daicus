@@ -138,5 +138,5 @@ Areas for Experimentation: To improve the accuracy scores (Precision and Recall)
 ### 4. Project Resources
 For more context on this project's development, goals, and future direction, please see the following resources:
 
-* **[Presentation on Next Steps & Future Improvements]([https://www.your-presentation-link-here.com](https://sebastiang00.github.io/rag-presentation/))** - First Attempt accuracy results (old version)
-* **[Project Brief & Technical Document (Google Doc)]([https://docs.google.com/document/d/your-doc-id-here/edit](https://docs.google.com/document/d/1JYfVTEHsrkdxZ9z_a2A9AuOFbfPWZ4turDQvX0wsJD0/edit?usp=sharing))** - A detailed document covering the project's initial scope, challenges, and key learnings. As well as outlining the strategic path to improve the RAG pipeline's accuracy to over 90%.
+* **[Presentation on Next Steps & Future Improvements]**(https://sebastiang00.github.io/rag-presentation/) - First Attempt accuracy results (old version).
+* **[Project Brief & Technical Document (Google Doc)]**(https://docs.google.com/document/d/1JYfVTEHsrkdxZ9z_a2A9AuOFbfPWZ4turDQvX0wsJD0/edit?usp=sharing) - A detailed document covering the project's initial scope, challenges, and key learnings, as well as outlining the strategic path to improve the RAG pipeline's accuracy to over 90%.
